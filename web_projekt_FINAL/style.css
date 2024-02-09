@@ -1,0 +1,652 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu-icon {
+    display: none; /* Hide by default for larger screens */
+    cursor: pointer;
+    /* Other styles */
+    background-color: #4D6A6D;
+  }
+/* Apply styles to the nav element */
+nav {
+    background-color: #4D6A6D;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.navbar span{
+    padding-top: 5px;
+    text-align: center;
+    flex: 1;
+}
+
+/* Style the unordered list (ul) inside the nav */
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+/* Style the list items (li) inside the nav */
+nav ul li {
+    margin-right: 15px;
+}
+
+/* Style the links (a) inside the nav */
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+/* Center "THE NATIONAL ZOO" text */
+#home_button {
+    text-align: center;
+    flex: 1; /* Allow the text to take available space */
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    #background-element h1{
+        font-size: 20px;
+    }
+    /* Hide the navbar by default */
+    .navbar ul {
+      display: none;
+    }
+  
+    /* Show the hamburger icon */
+    .navbar .menu-icon {
+      display: block;
+    }
+  
+    /* Other mobile styles */
+    /* ... */
+    .register_form {
+        width: 90%; 
+    }
+    .home_link a img {
+        max-width: 80px; /* Adjust width for smaller screens */
+        height: auto; /* Maintain aspect ratio */
+        /* Other styles for smaller screens */
+        /* ... */
+    }
+
+    /* Adjust position for smaller screens */
+    .home_link {
+        top: 3%; /* Adjust top positioning */
+        /* Other styles for smaller screens */
+        /* ... */
+    }
+  }
+
+  #tnzlogo{
+    padding-left: 40%;
+    padding-top:3%;
+  }
+
+
+/* Style the "Register" button */
+#reg_button a {
+    background-color: #D29D39;
+    padding: 8px 15px;
+    color: #FFFAF1;
+    font-family: Be Vietnam Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 206.119%; /* 32.979px */
+    letter-spacing: 3.04px; 
+    border-radius: 5px;
+
+}
+
+#name_display{
+    text-align: center;
+    float: center;
+    color: #FFFAF1;
+    font-family: Be Vietnam Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 206.119%; 
+    letter-spacing: 3.04px;
+    padding-right: 12vw;
+}
+
+#login_button a {
+    float: right;
+    color: #FFFAF1;
+    font-family: Be Vietnam Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 206.119%; 
+    letter-spacing: 3.04px;
+}
+#news_button a{
+    float: right;
+    color: #FFFAF1;
+    font-family: Be Vietnam Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 206.119%; 
+    letter-spacing: 3.04px;
+}
+#explore_button a{
+    float: right;
+    color: #FFFAF1;
+    font-family: Be Vietnam Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 206.119%; /* 32.979px */
+    letter-spacing: 3.04px;
+}
+
+
+#background-element {
+    height: 70vh;
+    background-image: url('images/ingo-stiller-3tkxfe2GocY-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Apply styles to the "WELCOME" h1 */
+#background-element h1 {
+    color: white;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.50);
+    font-family: Be Vietnam Pro;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 206.119%; /* 197.875px */
+    letter-spacing: 18.24px; 
+}
+
+.footer {
+    background-color: #4D6A6D;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+.home_content{
+    background-color: #4D6A6D;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.home_content ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.home_content li {
+    display: inline; 
+    margin-right: 20px; 
+}
+
+.footer a {
+    text-decoration: none;
+    color: #FFFAF1;
+    font-family: Be Vietnam Pro;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 206.119%; 
+    letter-spacing: 4.56px; 
+}
+
+
+#donate_button{
+    color: white;
+    background-color: #D29D39;
+    width: 177px;
+    height: 52px;
+    flex-shrink: 0; 
+    border-radius: 29px;
+    background: linear-gradient(0deg, #D29D39 0%, #D29D39 100%), linear-gradient(0deg, #D0E2E4 0%, #D0E2E4 100%), #D0E2E4;
+    color: #FFFAF1;
+    font-family: Be Vietnam Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 206.119%; 
+    letter-spacing: 3.04px; 
+
+}
+.animal_background{
+      /* Set background properties for the collage */
+      
+      background-image:  url('images/animal_background.svg');
+      background-size: 100%;
+      background-repeat: no-repeat; /* Prevent repeating */
+      width: 100%;
+      height: 100vh;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+
+}
+.home_link {
+    position: absolute;
+    top: 50%; /* Position at the vertical center */
+    left: 50%; /* Position at the horizontal center */
+    transform: translate(-50%, -50%); /* Centering trick using transform */
+    z-index: 1; /* Ensure it's above the background */
+    padding-bottom: 28%;
+    padding-left: 12%;
+}
+
+.home_link a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 24px;
+    /* Additional styles */
+}
+.register_form {
+    width: 80%; /* 1/3 of the screen width */
+    margin: 0 auto; /* Center the form horizontally */
+    margin-top:4vh;
+    padding: 20px; /* Add some padding around the form */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow effect */
+    background-color: white;
+    border-radius: 21px; 
+    
+}
+.register_form h2{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:#4D6A6D;
+
+}
+/* Apply styles to form elements inside the registration form */
+.register_form form {
+    /* Add specific form styles here */
+    /* For example: */
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.register_form form input,
+.register_form form button {
+    margin-bottom: 10px; /* Add space between form elements */
+    padding: 8px; /* Add padding to inputs and button */
+    border-radius: 17px; 
+}
+
+.register_form form label{
+    color:#4D6A6D;
+    font-family: Be Vietnam Pro;
+}
+
+.register_form form button{
+    background-color: #D29D39;
+    color: #FFFAF1;
+    font-family: Be Vietnam Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 206.119%; /* 32.979px */
+
+}
+
+
+.donate_box h3{
+    width: 405px;
+    height: 53px; 
+    color: #FFFAF1;
+    font-family: Be Vietnam Pro;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 206.119%; /* 49.469px */
+    letter-spacing: 4.56px; 
+}
+
+* { box-sizing: border-box; }
+body {
+    background: #1f1f1f;
+    font-family: arial;
+}
+
+.donations {
+    position: relative;
+    border: 1px solid #eee;
+    border-radius: 3px;
+    padding: 2em;
+    max-width: 400px;
+    margin: 10em auto;
+    background: white;
+    overflow: hidden;
+    color: #1f1f1f;
+}
+
+
+.donations__progress {
+    text-align: center;
+}
+
+
+.donations__text {
+    margin-bottom: 1em;
+    line-height: 1.5;
+}
+
+.donations__donors {
+    font-weight: bold;
+}
+
+.donations__form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 1.3em;
+}
+
+.donations__input,
+.donations__submit,
+.donations__reset {
+    font-size: inherit;
+  border: none;
+  padding: 0.5em 0.8em;
+  border-radius: 5px;
+  width: 45%;
+  min-width: 100px;
+  margin-bottom: 1em;
+}
+
+.donations__submit {
+    background: #D29D39;
+  color: white;
+  
+}
+
+.donations__reset {
+  color: white;
+  flex-grow: 1
+}
+
+.donations__input {
+  border: 1px solid #eee;
+  padding-left: 1em;
+}
+
+.donations__input-icon {
+  position: absolute;
+  color: gray;
+  line-height: 1.3;
+  padding: 0.5em 0.3em;
+  pointer-events: none;
+}
+
+.contact{
+    background-image:  url('images/animal_background.svg');
+      background-size: 100%;
+      background-repeat: no-repeat; /* Prevent repeating */
+      width: 100%;
+      height: 100vh;
+    
+}
+
+
+.contact_content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.column {
+    text-align: center;
+}
+
+.column i {
+    font-size: 24px;
+}
+
+.column p {
+    margin-top: 5px;
+}
+.contact_page h1{
+    color: white;
+    background-color: #4D6A6D;
+    margin-top: 1%;
+    padding: 9px;
+    width: 15%;
+    border-radius: 20px; 
+    margin-left: 1%;
+    text-align: center;
+}
+
+.contact_content{
+    margin: auto;
+    margin-top: 10px;
+    width:90%;
+    background-color: white;
+    height: 70vh;
+    border-radius: 10px;
+}
+
+.column svg {
+    height: 15vh;
+    width: 15vh;
+    margin: 10vw;
+    margin-top: 5vw;
+}
+
+.admin_page h1{
+    color: white;
+    background-color: #4D6A6D;
+    margin-top: 1%;
+    padding: 9px;
+    width: 15%;
+    border-radius: 20px; 
+    margin-left: 1%;
+    text-align: center;
+}
+
+.news {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    color: #858585;
+    font-family: "Basic";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 206.119%; /* 49.469px */
+    letter-spacing: 1.2px; 
+  }
+  
+  .news h2 {
+    margin-top: 0;
+    color: black;
+    font-family: Be Vietnam Pro;
+
+
+  }
+  
+  .news-content {
+    display: none;
+    margin-top: 10px;
+  }
+  .news img{
+    justify-content: center;
+  }
+  .btn {
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: #4D6A6D;
+    border-radius: 5px; 
+  }
+
+  .member{
+    background-image:  url('images/animal_background.svg');
+      background-size: 100%;
+      background-repeat: no-repeat; /* Prevent repeating */
+      width: 100%;
+      height: 100vh;
+    }
+
+.member_page h1{
+    color: white;
+    background-color: #4D6A6D;
+    margin-top: 1%;
+    padding: 9px;
+    width: 15%;
+    border-radius: 20px; 
+    margin-left: 1%;
+    text-align: center;
+}
+
+.container{
+    padding:10px;
+}
+
+.explore_page{
+    height: 100%;
+    width: 100%;
+    color: #4D6A6D;
+}
+
+.explore_page h1{
+    text-align: center;
+    padding: 3vw;
+    color: white;
+}
+.explore_page p{
+    padding:5vw;
+    text-align: left;
+    background-color: white;
+    font-family: Basic;
+}
+
+.navbar button{
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: #4D6A6D;
+    border-radius: 5px; 
+}
+
+.news-form {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    color: #858585;
+    font-family: "Basic";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 206.119%; /* 49.469px */
+    letter-spacing: 1.2px;
+}
+
+.news-form .btn {
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: #4D6A6D;
+    border-radius: 5px;
+}
+
+.news-form .news-input,
+.news-form .news-textarea {
+    width: calc(100% - 22px); /* Adjust width as needed */
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: "Basic";
+    font-size: 16px;
+    color: #858585;
+}
+
+.animal_container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #4D6A6D;
+}
+.animal_container h1{
+    text-align: center;
+    padding: 3vw;
+    color: white;
+}
+.search-container {
+    margin-bottom: 20px;
+}
+
+.animal-info {
+    text-align: left;
+    padding: 20px;
+    background-color: #4D6A6D; /* Match the background color of your website */
+    color: white; /* Text color */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: 'Be Vietnam Pro', sans-serif; /* Font family */
+}
+
+pre {
+    white-space: pre-wrap;
+}
+
+.animal-section {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: white; /* Match the background color of your website */
+    color: #4D6A6D; /* Text color */
+    font-family: 'Be Vietnam Pro', sans-serif; /* Font family */
+}
+
+.animal-section h2 {
+    margin-top: 0;
+}
+
+.animal-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.animal-section ul li {
+    margin-bottom: 8px;
+}
+
+.animal-section b {
+    font-weight: bold;
+}
